@@ -6,6 +6,7 @@ OpenAPIClient/Classes/OpenAPIs/APIs.swift
 OpenAPIClient/Classes/OpenAPIs/APIs/PetAPI.swift
 OpenAPIClient/Classes/OpenAPIs/APIs/StoreAPI.swift
 OpenAPIClient/Classes/OpenAPIs/APIs/UserAPI.swift
+OpenAPIClient/Classes/OpenAPIs/AlamofireImplementations.swift
 OpenAPIClient/Classes/OpenAPIs/CodableHelper.swift
 OpenAPIClient/Classes/OpenAPIs/Configuration.swift
 OpenAPIClient/Classes/OpenAPIs/Extensions.swift
@@ -20,7 +21,6 @@ OpenAPIClient/Classes/OpenAPIs/Models/Tag.swift
 OpenAPIClient/Classes/OpenAPIs/Models/User.swift
 OpenAPIClient/Classes/OpenAPIs/OpenISO8601DateFormatter.swift
 OpenAPIClient/Classes/OpenAPIs/SynchronizedDictionary.swift
-OpenAPIClient/Classes/OpenAPIs/URLSessionImplementations.swift
 Package.swift
 README.md
 docs/ApiResponse.md

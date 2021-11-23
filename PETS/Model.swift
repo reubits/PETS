@@ -10,14 +10,10 @@ import Foundation
 class Model: ObservableObject {
 
   init() {
-    NSLog("MARKUS!")
 
     PetAPI.findPetsByStatus(status: ["available", "another"]) { pets, error in
-      print("PETS \(pets) \(error)")
+      print("RESULT: \(pets) \(error)")
     }
 
-//    StoreAPI.getInventory { data, error in
-//      NSLog("INVENTORY \(data)")
-//    }
   }
 }

@@ -34,7 +34,7 @@
 		5AD25F75274D5E97006B5568 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD25F72274D5E97006B5568 /* UserAPI.swift */; };
 		5AD25F76274D5E97006B5568 /* PetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD25F73274D5E97006B5568 /* PetAPI.swift */; };
 		5AD25F77274D5E97006B5568 /* StoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD25F74274D5E97006B5568 /* StoreAPI.swift */; };
-		5AD25F79274D66E4006B5568 /* URLSessionImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD25F78274D66E4006B5568 /* URLSessionImplementations.swift */; };
+		5AD25F7B274D79B5006B5568 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD25F7A274D79B5006B5568 /* AlamofireImplementations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,7 +68,7 @@
 		5AD25F72274D5E97006B5568 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
 		5AD25F73274D5E97006B5568 /* PetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetAPI.swift; sourceTree = "<group>"; };
 		5AD25F74274D5E97006B5568 /* StoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreAPI.swift; sourceTree = "<group>"; };
-		5AD25F78274D66E4006B5568 /* URLSessionImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionImplementations.swift; sourceTree = "<group>"; };
+		5AD25F7A274D79B5006B5568 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +160,7 @@
 		5AD25F2B274D57B8006B5568 /* OpenAPIs */ = {
 			isa = PBXGroup;
 			children = (
-				5AD25F78274D66E4006B5568 /* URLSessionImplementations.swift */,
+				5AD25F7A274D79B5006B5568 /* AlamofireImplementations.swift */,
 				5AD25F2C274D57B8006B5568 /* APIHelper.swift */,
 				5AD25F2E274D57B8006B5568 /* APIs */,
 				5AD25F32274D57B8006B5568 /* CodableHelper.swift */,
@@ -282,13 +282,13 @@
 				5AD25F67274D57B9006B5568 /* SynchronizedDictionary.swift in Sources */,
 				5AD25F63274D57B9006B5568 /* Extensions.swift in Sources */,
 				5AD25F5E274D57B9006B5568 /* User.swift in Sources */,
+				5AD25F7B274D79B5006B5568 /* AlamofireImplementations.swift in Sources */,
 				5AD25F55274D57B9006B5568 /* APIHelper.swift in Sources */,
 				5AD25F5F274D57B9006B5568 /* ApiResponse.swift in Sources */,
 				5AD25F66274D57B9006B5568 /* Models.swift in Sources */,
 				5AD25F65274D57B9006B5568 /* JSONEncodingHelper.swift in Sources */,
 				5AD25F07274D56D3006B5568 /* ContentView.swift in Sources */,
 				5AD25F5C274D57B9006B5568 /* OpenISO8601DateFormatter.swift in Sources */,
-				5AD25F79274D66E4006B5568 /* URLSessionImplementations.swift in Sources */,
 				5AD25F5D274D57B9006B5568 /* Order.swift in Sources */,
 				5AD25F05274D56D3006B5568 /* PETSApp.swift in Sources */,
 				5AD25F6F274D5D60006B5568 /* Model.swift in Sources */,

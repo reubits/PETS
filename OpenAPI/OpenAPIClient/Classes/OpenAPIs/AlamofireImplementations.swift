@@ -317,6 +317,7 @@ open class AlamofireRequestBuilder<T>: RequestBuilder<T> {
 open class AlamofireDecodableRequestBuilder<T: Decodable>: AlamofireRequestBuilder<T> {
 
     override fileprivate func processRequest(request: DataRequest, _ managerId: String, _ apiResponseQueue: DispatchQueue, _ completion: @escaping (_ result: Swift.Result<Response<T>, ErrorResponse>) -> Void) {
+        print("URL: \(request.convertible.urlRequest)")
         if let credential = self.credential {
             request.authenticate(with: credential)
         }
